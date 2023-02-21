@@ -1,0 +1,32 @@
+{
+  "name": "hotel-management-api",
+  "version": "1.0.0",
+  "description": "A simple API for managing hotel operations. It provides services for managing rooms and room types. Documentation and code samples are available to help you get started quickly. The API has two main components: Room and Room Type.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.8.1",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adaobi-Chuks/hotel-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Adaobi-Chuks/hotel-api/issues"
+  },
+  "homepage": "https://github.com/Adaobi-Chuks/hotel-api#readme"
+}
